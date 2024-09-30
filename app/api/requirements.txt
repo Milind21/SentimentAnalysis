@@ -1,0 +1,6 @@
+nltk==3.7
+flask>=2.0.0
+scikit-learn==1.5.2
+# import nltk; nltk.download('omw-1.4'); nltk.download('wordnet')
+# command to run docker is "docker compose up --build"
+# to save on docker hub "docker compose push"

@@ -1,0 +1,12 @@
+# generally used when multiple services are running
+version: '3.7'
+
+services:
+  sentapp:
+    container_name: sentapp
+    image: milindc02/sentapp
+    ports:
+      - "5001:5001"
+    build:
+      context: .
+      dockerfile: Dockerfile  
